@@ -20,4 +20,6 @@ Pod::Spec.new do |s|
 	s.swift_version = '4.0'
 	s.source_files = 'Classes/**/*'
 	s.frameworks = 'Foundation'
+	s.dependency 'Alamofire'
+	
 end
